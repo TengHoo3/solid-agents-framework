@@ -28,15 +28,6 @@ Project maintainers are responsible for clarifying and enforcing our standards o
 
 Maintainers who do not follow or enforce the Code of Conduct may be temporarily or permanently removed from the project team at the discretion of the project owners.
 
-## Reporting Guidelines
-
-If you are subject to or witness unacceptable behavior, or have any other concerns, please report it by contacting the project team at:
-
-- **Primary contact (email):** conduct@your-email.org  
-  *(Replace with a monitored email or use your GitHub organization contact)*
-
-Reports should include as much detail as possible: what happened, when, who was involved, and any supporting evidence (logs, screenshots, links). All reports will be treated with confidentiality to the extent possible and investigated promptly and fairly.
-
 ## Scope
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing the project include using an official project email address, posting on the project's discussion forums, or acting as an appointed representative at an online or offline event.
