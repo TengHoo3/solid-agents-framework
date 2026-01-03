@@ -63,21 +63,25 @@ graph TD
     B --> C[Orchestrator Agent]
     C --> D[Tool Selector Agent]
     D --> E{Execution Agents}
+    
     E --> F[RAG Agent]
     E --> G[Memory Agent]
     E --> H[Custom Agents]
-    F --> I[Vector Store]
-    G --> J[Memory Store]
+    
+    F --> I[(Vector Store)]
+    G --> J[(Memory Store)]
+    
     C --> K[Validation Agent]
-    K -->|Valid| L[Output Format Agent]
-    K -->|Invalid| C
+    K -- Valid --> L[Output Format Agent]
+    K -- Invalid --> C
+    
     L --> M[Formatted Output]
     
-    style A fill:#667eea
-    style M fill:#764ba2
-    style C fill:#f6ad55
-    style K fill:#48bb78
-    style E fill:#ed8936
+    style A fill:#667eea,color:#fff
+    style M fill:#764ba2,color:#fff
+    style C fill:#f6ad55,color:#fff
+    style K fill:#48bb78,color:#fff
+    style E fill:#ed8936,color:#fff
 ```
 
 ### SOLID Principles Implementation
