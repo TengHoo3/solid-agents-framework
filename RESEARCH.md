@@ -292,7 +292,7 @@ To demonstrate the feasibility of applying SOLID principles to multi-agent LLM s
 
 The implementation successfully handles complex multi-agent workflows including query planning, tool selection, retrieval-augmented generation, output validation, and format transformation. This proof-of-concept validates that SOLID principles can be practically applied to production-grade LLM agent systems.
 
-The code is in the `notebook` folder and includes Jupyter notebooks demonstrating both single-agent and multi-agent workflows.
+The code is in the `notebook` folder and includes Jupyter notebooks demonstrating multi-agent workflows.
 
 ---
 
