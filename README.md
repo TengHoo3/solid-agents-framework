@@ -150,38 +150,12 @@ All agents communicate via standardized message envelopes, enabling:
 
 ### Reference Implementation
 
-This repository provides a reference implementation demonstrating SOLID principles in multi-agent architectures.
-
-**Technology Stack:**
-- **Language**: Python 3.11+
-- **LLM Integration**: Protocol-based adapters (OpenAI, Groq)
-- **Vector Store**: scikit-learn TF-IDF (baseline), extensible to advanced embeddings
-- **API**: FastAPI with OpenAPI specification
-- **Testing Framework**: pytest (recommended for validation studies)
+This repository provides a reference implementation demonstrating SOLID principles in multi-agent architectures via a notebook in [multi_agent.ipynb](notebook/multi_agent.ipynb)
 
 **Proposed System Metrics:**
 - **Temporal Efficiency**: Time to integrate new agents, time to replace agents, MTTR
 - **Code Complexity**: Files modified, lines changed, impact radius
 - **System Stability**: Regression rate, interface violations, downstream failures
-
-### Reproducibility
-
-Researchers can use this implementation as a baseline for comparative studies.
-
-```bash
-# Clone repository
-git clone <repository-url>
-cd solid-agents-frameworks
-
-# Install dependencies
-pip install -r src/requirements.txt
-
-# Start reference implementation
-python -m uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
-
-# Access web interface for interactive exploration
-open http://localhost:8000/static/index.html
-```
 
 ---
 
@@ -310,21 +284,6 @@ This work aligns with emerging standards:
 Our SOLID-based architecture provides a principled foundation for implementing these protocols.
 
 ---
-
-## Limitations and Future Work
-
-### Current Limitations
-
-**Implementation:**
-- In-memory state only (no persistence layer)
-- TF-IDF vector store (not embedding-based)
-- Single-instance deployment (no distributed coordination)
-- No authentication/authorization
-
-**Validation:**
-- Proof-of-concept scale (not enterprise-scale deployment)
-- Limited to 7 agent types
-- Qualitative observations, not full empirical validation
 
 ### Future Research Directions
 
